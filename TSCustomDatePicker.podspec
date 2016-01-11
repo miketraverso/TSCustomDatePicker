@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC Ever want to have a custom date picker where you can set the background color, font, font color, the start date and end date? OK, well I did so I created TSCustomDatePicker which allows you to create a custom date picker where you can set the background color, font, font color and start and end dates to select from.
+  s.description      = <<-DESC "Ever want to have a custom date picker where you can set the background color, font, font color, the start date and end date? OK, well I did so I created TSCustomDatePicker which allows you to create a custom date picker where you can set the background color, font, font color and start and end dates to select from."
                        DESC
 
-  s.homepage         = "https://github.com/mikertraverso/TSCustomDatePicker"
+  s.homepage         = "https://github.com/miketraverso/TSCustomDatePicker"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Michael Traverso" => "mike@traversoft.com" }
-  s.source           = { :git => "https://github.com/mikertraverso/TSCustomDatePicker.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/miketraverso/TSCustomDatePicker.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/traversoft'
 
   s.platform     = :ios, '8.0'

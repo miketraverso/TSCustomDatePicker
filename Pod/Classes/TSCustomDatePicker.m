@@ -258,7 +258,7 @@
     }
     else if (component == 1) {
         
-        [lblDate setText:[NSString stringWithFormat:@"%02ld", row+1]];
+        [lblDate setText:[NSString stringWithFormat:@"%02ld", (long)row+1]];
         lblDate.textAlignment = NSTextAlignmentRight;
     }
     else if (component == 2) {
@@ -268,7 +268,7 @@
         [components setYear:row];
         NSDate *newDate = [calendar dateByAddingComponents:components toDate:[NSDate date] options:0];
         components = [calendar components:NSCalendarUnitYear fromDate:newDate];
-        [lblDate setText:[NSString stringWithFormat:@"%ld",components.year]];
+        [lblDate setText:[NSString stringWithFormat:@"%ld", (long)components.year]];
         lblDate.textAlignment = NSTextAlignmentRight;
     }
     
