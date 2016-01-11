@@ -8,25 +8,25 @@
 
 Pod::Spec.new do |s|
   s.name             = "TSCustomDatePicker"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of TSCustomDatePicker."
+  s.version          = "1.0.0"
+  s.summary          = "A customizable month/day/year picker."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
+  s.description      = <<-DESC Ever want to have a custom date picker where you can set the background color, font, font color, the start date and end date? OK, well I did so I created TSCustomDatePicker which allows you to create a custom date picker where you can set the background color, font, font color and start and end dates to select from.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TSCustomDatePicker"
+  s.homepage         = "https://github.com/mikertraverso/TSCustomDatePicker"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Michael Traverso" => "mike@traversoft.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TSCustomDatePicker.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/mikertraverso/TSCustomDatePicker.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/traversoft'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

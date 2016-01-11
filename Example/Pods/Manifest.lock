@@ -1,0 +1,14 @@
+PODS:
+  - TSCustomDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - TSCustomDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  TSCustomDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSCustomDatePicker: 523001c2358fa064a961fad68431635bd39a6b12
+
+COCOAPODS: 0.39.0

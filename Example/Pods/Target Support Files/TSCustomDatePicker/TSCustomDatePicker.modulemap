@@ -1,0 +1,6 @@
+framework module TSCustomDatePicker {
+  umbrella header "TSCustomDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

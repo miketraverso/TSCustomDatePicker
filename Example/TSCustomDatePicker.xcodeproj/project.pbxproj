@@ -23,6 +23,7 @@
 		60260981870FBC0DAF0CD74D /* Pods_TSCustomDatePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E925B8A724C6078B592337B /* Pods_TSCustomDatePicker_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		87F824F381363B80F53D722B /* Pods_TSCustomDatePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B7A6ACE1C80822F58319BA /* Pods_TSCustomDatePicker_Example.framework */; };
+		E99CF3141C42CA7B00B4C8DF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E99CF3131C42CA7B00B4C8DF /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7E910D456C932DB8415996B7 /* Pods-TSCustomDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSCustomDatePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSCustomDatePicker_Example/Pods-TSCustomDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D031C283C4D90A0B4DC7AE9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E99CF3131C42CA7B00B4C8DF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		EB43F6CEB8750D0EE7CE27FF /* Pods-TSCustomDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSCustomDatePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSCustomDatePicker_Tests/Pods-TSCustomDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB73211C9FC0464FF9DFE4BB /* Pods-TSCustomDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSCustomDatePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSCustomDatePicker_Example/Pods-TSCustomDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,9 +143,10 @@
 		6003F593195388D20070C39A /* Example for TSCustomDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				E99CF3131C42CA7B00B4C8DF /* Launch Screen.storyboard */,
 				6003F59C195388D20070C39A /* TSAppDelegate.h */,
 				6003F59D195388D20070C39A /* TSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TSViewController.h */,
 				6003F5A6195388D20070C39A /* TSViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				E99CF3141C42CA7B00B4C8DF /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -516,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSCustomDatePicker/TSCustomDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "TSCustomDatePicker/TSCustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TSCustomDatePicker/TSCustomDatePicker-Prefix.pch";
 				INFOPLIST_FILE = "TSCustomDatePicker/TSCustomDatePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
